@@ -1,0 +1,27 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "Product": 5,
+    "Category": 2
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "Product": {
+      "1": "{\"id\":1,\"name\":\"Akroma\",\"price\":49.99,\"categoryId\":1}",
+      "2": "{\"name\":\"product\",\"price\":9992.99,\"categoryId\":1,\"id\":2}",
+      "3": "{\"name\":\"Planicie\",\"price\":100,\"categoryId\":1,\"id\":3}",
+      "4": "{\"name\":\"string\",\"price\":1000,\"id\":4}"
+    },
+    "Category": {
+      "1": "{\"name\":\"Card Game\",\"id\":1}"
+    }
+  }
+}
