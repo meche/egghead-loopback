@@ -1,16 +1,20 @@
 {
   "ids": {
-    "User": 1,
-    "AccessToken": 1,
+    "User": 2,
+    "AccessToken": 2,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
     "Product": 5,
-    "Category": 2
+    "Category": 3
   },
   "models": {
-    "User": {},
-    "AccessToken": {},
+    "User": {
+      "1": "{\"password\":\"$2a$10$BxBig7ovJbPnv6Q4CQ8Fl.vLyIdScZFK9mgRSXmK3atXUpnHAL.AK\",\"email\":\"admin@example.com\",\"id\":1}"
+    },
+    "AccessToken": {
+      "secr3t": "{\"id\":\"secr3t\",\"userId\":1}"
+    },
     "ACL": {},
     "RoleMapping": {},
     "Role": {},
@@ -20,6 +24,8 @@
       "3": "{\"name\":\"Planicie\",\"price\":100,\"categoryId\":1,\"id\":3}",
       "4": "{\"name\":\"string\",\"price\":1000,\"id\":4}"
     },
-    "Category": {}
+    "Category": {
+      "2": "{\"name\":\"mail\",\"id\":2}"
+    }
   }
 }
