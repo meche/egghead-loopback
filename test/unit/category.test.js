@@ -16,9 +16,10 @@ describe('Category', () => {
             price: 299,
             categoryId: cat.id,
           }))
-        .then(res => Category.destroyById(res.categoryId))
+        .then(res => Category.deleteById(res.categoryId))
+        .then(res => expect(res).to.equal(null))
         .catch(err => expect(err).to.equal(
-          'rror deleting category with products'
+          'Error deleting category with products'
         ));
     });
   });
