@@ -8,7 +8,7 @@ if (mongodbUrl) {
   const dataSources = {
     db: {
       name: 'db',
-      conector: 'mongodb',
+      connector: 'mongodb',
       url: mongodbUrl,
     },
   };
