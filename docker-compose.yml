@@ -1,0 +1,9 @@
+version: '3'
+services:
+  web:
+    image: loopback:latest
+    container_name: loopback
+    ports:
+      - "3000:3000"
+    working_dir: /usr/src/app
+    command: sh -c "npm run dev"
